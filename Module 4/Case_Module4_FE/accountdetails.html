@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Account</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Colo Shop Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="tab-pane fade" id="account-details">
+    <h3>Account details </h3>
+    <div class="login">
+        <div class="login_form_container">
+            <div class="account_login_form">
+                <form id="updateAccountForm">
+                    <div id="pendingBecomeBuyerNotification"></div>
+                    <div class="default-form-box mb-20" hidden>
+                        <label for="id-update">ID</label>
+                        <input type="text" id="id-update">
+                    </div>
+                    <div class="default-form-box mb-20">
+                        <label for="name-update">Name</label>
+                        <input type="text" name="name" id="name-update">
+                    </div>
+                    <div class="default-form-box mb-20" hidden>
+                        <label for="username-update">Username</label>
+                        <input type="text" id="username-update">
+                    </div>
+                    <div class="default-form-box mb-20" hidden>
+                        <label for="password-update">Password</label>
+                        <input type="text" name="user-password" id="password-update">
+                    </div>
+                    <div class="default-form-box mb-20">
+                        <label for="user-address-update">Address</label>
+                        <input type="text" id="user-address-update">
+                    </div>
+                    <div class="default-form-box mb-20">
+                        <label for="phone-update">Phone</label>
+                        <input type="text" id="phone-update">
+                    </div>
+                    <div class="default-form-box mb-20">
+                        <label for="avatar">Avatar</label>
+                        <input type="file" id="avatar">
+                    </div>
+                    <div class="default-form-box mb-20" id="roles-update" hidden>
+                    </div>
+                    <div class="save_button mt-3">
+                        <button class="btn" type="button" onclick="showEdit()">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

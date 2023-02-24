@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/Ecommerce-Shop/norda/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/Ecommerce-Shop/norda" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/admin/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/cart.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/login-register.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/my-account.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/product-details.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/shop/shop.jsp" value="file://$PROJECT_DIR$/src/main/webapp/shop" />
+      </map>
+    </option>
+  </component>
+</project>

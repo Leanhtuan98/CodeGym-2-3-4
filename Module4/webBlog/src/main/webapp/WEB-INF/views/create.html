@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form th:object="${blog}" method="post" enctype="multipart/form-data">
+  <table>
+    <tr>
+      <td><input th:field="*{title}"></td>
+      <td><input th:field="*{content}"></td>
+      <td><input type="file" name="upImg"></td>
+      <td>
+<!--        <select th:field="*{category}">-->
+<!--          <option th:each="c: ${blog}" th:text="${c.}" th:value="${c.id}"></option>-->
+<!--        </select>-->
+<!--      </td>-->
+    </tr>
+    <tr>
+      <td style="color: red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></td>
+      <td style="color: red" th:if="${#fields.hasErrors('content')}" th:errors="*{content}"></td>
+      <td style="color: red" th:if="${#fields.hasErrors('img')}" th:errors="*{img}"></td>
+    </tr>
+  </table>
+  <button type="submit">Create</button>
+</form>
+</body>
+</html>
